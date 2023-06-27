@@ -38,7 +38,7 @@ const ContactList = ({ setSelectedContactId }) => {
         <tr>
           <td>Name</td>
           <td>Email</td>
-          <td>Phone</td>
+          <td>Phone Number</td>
         </tr>
         {contacts.map((contact) => {
           return (
