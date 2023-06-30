@@ -7,9 +7,8 @@ const ContactRow = ({ contact, setSelectedContactId }) => {
         setSelectedContactId(contact.id);
       }}
     >
-      <td>{contact.name}</td>
-      <td>{contact.email}</td>
-      <td>{contact.phone}</td>
+      <td className="name-person">{contact.name}</td>
+      <td className="phone-number">{contact.phone}</td>
     </tr>
   );
 };
