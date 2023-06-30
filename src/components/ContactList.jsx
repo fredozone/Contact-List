@@ -31,14 +31,15 @@ const ContactList = ({ setSelectedContactId }) => {
     <table>
       <thead>
         <tr>
-          <td colSpan="3">Contact List</td>
+          <td colSpan={2} id="table-title">
+            Contact List
+          </td>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>Name</td>
-          <td>Email</td>
-          <td>Phone Number</td>
+          <td className="title-row">Name</td>
+          <td className="title-row">Phone</td>
         </tr>
         {contacts.map((contact) => {
           return (
